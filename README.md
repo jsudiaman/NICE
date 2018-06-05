@@ -4,6 +4,7 @@
 NICE (NFC-Integrated Cards for Entry) attendance management system.
 
 ## Setup
+
 ### Requirements
 - [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (8u40 or later)
 - [Apache Maven](https://maven.apache.org/)
