@@ -1,5 +1,5 @@
 # NICE Attendance Taker
-![Logo](https://raw.githubusercontent.com/sudiamanj/NICE/master/images/NICE-icon.png)
+![Logo](/images/NICE-icon.png)
 
 NICE (NFC-Integrated Cards for Entry) attendance management system.
 
@@ -12,7 +12,7 @@ NICE (NFC-Integrated Cards for Entry) attendance management system.
 
 ### Steps
 1. Connect your ACR122U USB NFC Reader. The device should be showing a red light. If not, ensure that you have the correct drivers installed. On Windows, you may need to start the “Smart Card” service as well.
-2. In MySQL, create a database named `nicedb`. Initialize it using [DDL.sql](https://github.com/sudiamanj/NICE/blob/master/src/main/resources/com/sudicode/nice/DDL.sql).
+2. In MySQL, create a database named `nicedb`. Initialize it using [DDL.sql](/src/main/resources/com/sudicode/nice/DDL.sql).
 3. Set the following environment variables:
 
 | Variable    | Value                                       |
@@ -26,4 +26,4 @@ mvn install && mvn exec:java
 ```
 
 ## See it in action!
-<a href="https://vimeo.com/228209879"><img src="https://raw.githubusercontent.com/sudiamanj/NICE/master/images/demo.png" alt="Video Demo"></a>
+<a href="https://vimeo.com/228209879"><img src="/images/demo.png" alt="Video Demo"></a>
