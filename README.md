@@ -11,17 +11,19 @@ NICE (NFC-Integrated Cards for Entry) attendance management system.
 - [ACR122U USB NFC Reader](https://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader)
 
 ### Steps
-1. Connect your ACR122U USB NFC Reader. The device should be showing a red light. If not, ensure that you have the correct drivers installed. On Windows, you may need to start the “Smart Card” service as well.
-2. In MySQL, create a database named `nicedb`. Initialize it using [DDL.sql](/src/main/resources/com/sudicode/nice/DDL.sql).
-3. Set the following environment variables:
+- Connect your ACR122U USB NFC Reader. The device should be showing a red light. If not, ensure that you have the correct drivers installed. On Windows, you may need to start the “Smart Card” service as well.
+- In MySQL, create a database named `nicedb`. Initialize it using [DDL.sql](/src/main/resources/com/sudicode/nice/DDL.sql).
+- Set the following environment variables:
 
 | Variable    | Value                                       |
 |-------------|---------------------------------------------|
 | `DB_USER`   | Your database username, e.g. `root`         |
 | `DB_PW`     | Your database password                      |
 | `DB_SERVER` | Location of your database, e.g. `localhost` |
-4. Start NICE using the following command:
-```bash
+
+- Start NICE using the following command:
+
+```shell
 mvn install && mvn exec:java
 ```
 
