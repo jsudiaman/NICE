@@ -3,6 +3,8 @@
 
 NICE (NFC-Integrated Cards for Entry) attendance management system.
 
+[![Build Status](https://travis-ci.org/sudiamanj/NICE.svg?branch=master)](https://travis-ci.org/sudiamanj/NICE)
+
 ## Setup
 
 ### Requirements
