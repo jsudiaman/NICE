@@ -1,7 +1,7 @@
 dist: xenial
 language: java
 jdk:
-  - oraclejdk9
+  - openjdk8
 addons:
   apt:
     update: true
