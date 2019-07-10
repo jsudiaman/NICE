@@ -1,0 +1,6 @@
+language: java
+addons:
+  apt:
+    packages:
+    - openjfx
+script: mvn install -Dtestfx.robot=glass -Dglass.platform=Monocle -Dmonocle.platform=Headless -Dprism.order=sw
